@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "kfitz-lab",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Welcome to the kfitz lab\n\n\nIdentifying diagnostic and prognostic factors related to multiple sclerosis (MS) and other neurologic diseases\n\n\n\n\n\n\n\nWe are band of data detectives with diverse superpowers in neuroscience, genetics, bioinformatics, and a flair for caffeine alchemy. We operate at the intersection of big data, genomics, and neurodegenerative enigmas, wielding cutting-edge algorithms and a pinch of statistical wizardry. From decoding the mysteries of MS progression to untangling the quirks of sleep analysis, our research illuminates the brain’s secrets while testing the limits of both science and our HPC’s patience. Fueled by experiments (and generous coffee breaks), we aim to show that science is not just groundbreaking—it can be a lot of fun, too!"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,54 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "kfitz-lab",
+    "section": "Education",
+    "text": "Education\nHarvard University School of Public Health Sc.D., 2015\nPennsylvania State University B.S., 2009"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "kfitz-lab",
+    "section": "",
+    "text": "Wengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Sept 2012 - April 2018"
+  },
+  {
+    "objectID": "team/kate/index.html#education",
+    "href": "team/kate/index.html#education",
+    "title": "Kevin C. Smith",
+    "section": "Education",
+    "text": "Education\nPh.D. Physics | University of Washington"
+  },
+  {
+    "objectID": "team/kate/index.html#s-group-publications",
+    "href": "team/kate/index.html#s-group-publications",
+    "title": "Kevin C. Smith",
+    "section": "Kevin’s Group Publications",
+    "text": "Kevin’s Group Publications"
+  },
+  {
+    "objectID": "team/index.html",
+    "href": "team/index.html",
+    "title": "Say Hello team!",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "team/index.html#principal-investigator",
+    "href": "team/index.html#principal-investigator",
+    "title": "Say Hello team!",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Kate Fitzgerald",
+    "section": "",
+    "text": "fitzgerald@jhmi.edu, kfitzg13@jh.edu\n\n\n   555-123-4567\n\n\n   Department of Neurology, Johns Hopkins University School of Medicine,\n1800 Orleans St, Baltimore, MD 21287"
   }
 ]

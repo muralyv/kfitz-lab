@@ -1,20 +1,56 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "!publications/_template/"
+    - "!people/_template/"
 
 website:
   title: "kfitz-lab"
+  favicon: images/extra4.jpg
+  page-navigation: false
+        
+  page-footer:
+    background: "#F6F5F3"
+    center: © 2024  &middot; This website is built with {{< fa heart title="a heart" >}}, {{< fa brands r-project >}},{{< fa brands github title="GitHub Octocat logo" >}} and 
+      [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/) 
+    right:
+      - icon: github
+        href: https://github.com/kfitzg13
+        
+
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    search: true
+    title: Kfitz Lab
+    logo: images/V-JHM-2.png
+    logo-alt: "kfitz lab"
+    background: "#F6F5F3"
+    right:
+      - href: team/index.qmd
+        text: Team
+      - href: research/index.qmd
+        text: Reseach
+      - href: publications/index.qmd
+        text: Publications
+      - href: news/index.qmd
+        text: News
+      - href: contact.qmd
+        text: Contact
 
 format:
   html:
-    theme: cosmo
+    theme:
+      - styles.scss
+      - yeti
     css: styles.css
+    mainfont: Nunito Sans
     toc: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    resources:
+      - images
+
 
 
 

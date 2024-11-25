@@ -1,0 +1,22 @@
+---
+title: "Say Hello team!"
+listing:
+  - id: pi
+    include: 
+      people_group: "pi"
+    exclude:
+      external: true
+    template: ../_ejs/team-box.ejs
+    type: grid
+    fields: [title, subtitle, image, education]
+  
+page-layout: full
+---
+
+
+## Principal Investigator
+
+
+::: {#pi}
+:::
+

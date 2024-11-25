@@ -1,0 +1,30 @@
+
+:::{#contact}
+
+---
+title: "Kate Fitzgerald"
+about: 
+  id: contact
+  template: solana
+  image-shape: square
+  image: team/kate/profile_pic.jpg
+  image-alt: "Kate Fitzgerald Profile Picture"
+# page-layout: full
+---
+
+#### {{< fa envelope >}} &nbsp; [fitzgerald@jhmi.edu](mailto:fitzgerald@jhmi.edu), [kfitzg13@jh.edu](mailto:kfitzg13@jh.edu)
+#### {{< fa phone >}} &nbsp; 555-123-4567
+#### {{< fa map-location-dot >}} &nbsp; Department of Neurology, Johns Hopkins University School of Medicine,  
+1800 Orleans St, Baltimore, MD 21287
+:::
+
+```{r}
+#| echo: false
+#| warning: false
+#| label: make map
+library(leaflet)
+leaflet() %>%
+  addProviderTiles("CartoDB.Positron") %>%
+  addMarkers(lng = -76.592941, lat = 39.296318, 
+             popup = "Johns Hopkins Department of Neurology")
+```

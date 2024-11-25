@@ -1,0 +1,35 @@
+---
+title: &TITLE Kevin C. Smith
+first: Kevin
+last: Smith
+people_group: alumni
+education: Ph.D. Physics | University of Washington
+subtitle: Graduate Student
+image: profile_pic.jpg
+
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+---
+
+<hr>
+
+
+:::{#about}
+
+
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::

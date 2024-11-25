@@ -1,11 +1,33 @@
 ---
-title: "kfitz-lab"
+# title: 'Welcome to the kfitz lab: <span style="color:#757883">Identifying diagnostic and prognostic factors related to multiple sclerosis (MS) and other neurologic diseases</span>'
+# subtitle: "Identifying diagnostic and prognostic factors related to multiple sclerosis (MS) and other neurologic diseases"
+page-layout: full
 ---
+<div class="gradient-text">
 
-This is a Quarto website.
+<div class="welcome-headline">
+Welcome to the kfitz lab<br>
+</div>
+<div class="welcome-subheadline">
+Identifying diagnostic and prognostic factors related to multiple sclerosis (MS) and other neurologic diseases
+</div>
+</div>
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+::::{.cmm-background}
+::: {.content-container}
+::: {.welcome }
 
-```{r}
-1 + 1
-```
+
+::: grid
+::: {.g-col-12 .g-col-lg-4 .welcome-text .sand-background style="padding: 15px;"}
+
+We are band of data detectives with diverse superpowers in neuroscience, genetics, bioinformatics, and a flair for caffeine alchemy. We operate at the intersection of big data, genomics, and neurodegenerative enigmas, wielding cutting-edge algorithms and a pinch of statistical wizardry. From decoding the mysteries of MS progression to untangling the quirks of sleep analysis, our research illuminates the brain's secrets while testing the limits of both science and our HPC's patience. Fueled by experiments (and generous coffee breaks), we aim to show that science is not just groundbreaking—it can be a lot of fun, too!
+:::
+
+:::
+
+
+
+:::
+:::
+::::
